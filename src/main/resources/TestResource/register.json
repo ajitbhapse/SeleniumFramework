@@ -1,0 +1,10 @@
+{
+	"register_01": {
+		"firstName" : "vijay",
+		"secondName" : "Ithape",
+		"gender" : "FeMale",
+		"hobbies" : "Cricket",
+		"skill" :"Android",
+		"year" :"1917"
+	}
+}

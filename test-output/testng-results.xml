@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49997" started-at="2022-06-05T16:02:31Z" finished-at="2022-06-05T16:03:21Z">
+    <groups>
+      <group name="Regression">
+        <method signature="RegisterTests.register_02()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="register_02" class="com.crm.Tests.RegisterTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="RegisterTests.register_01()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="register_01" class="com.crm.Tests.RegisterTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="49997" started-at="2022-06-05T16:02:31Z" finished-at="2022-06-05T16:03:21Z">
+      <class name="com.crm.Tests.FavLanguageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.Tests.FavLanguageTest@2ea227af]" name="setup" is-config="true" duration-ms="28341" started-at="2022-06-05T21:32:31Z" finished-at="2022-06-05T21:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="favLang()[pri:0, instance:com.crm.Tests.FavLanguageTest@2ea227af]" name="favLang" duration-ms="306" started-at="2022-06-05T21:33:00Z" finished-at="2022-06-05T21:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favLang -->
+      </class> <!-- com.crm.Tests.FavLanguageTest -->
+      <class name="com.crm.Tests.RegisterTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="setup" is-config="true" duration-ms="8382" started-at="2022-06-05T21:33:00Z" finished-at="2022-06-05T21:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="register_01()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="register_01" duration-ms="1406" started-at="2022-06-05T21:33:08Z" finished-at="2022-06-05T21:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_01 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="setup" is-config="true" duration-ms="9742" started-at="2022-06-05T21:33:10Z" finished-at="2022-06-05T21:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="register_02()[pri:0, instance:com.crm.Tests.RegisterTests@4386f16]" name="register_02" duration-ms="1795" started-at="2022-06-05T21:33:19Z" finished-at="2022-06-05T21:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_02 -->
+      </class> <!-- com.crm.Tests.RegisterTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
