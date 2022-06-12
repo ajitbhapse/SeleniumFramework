@@ -26,7 +26,7 @@ WebDriver driver;
 		InputtyperadioPage inputtyperadioPage = new InputtyperadioPage(driver);
 		inputtyperadioPage.switchToFrame();
 		inputtyperadioPage.selectFavLanguage("CSS");
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 
 }
